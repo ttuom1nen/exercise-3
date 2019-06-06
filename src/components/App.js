@@ -8,7 +8,7 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onSearchSubmit("pewdiepie");
+    this.onSearchSubmit("react js");
   }
 
   onSearchSubmit = async term => {
